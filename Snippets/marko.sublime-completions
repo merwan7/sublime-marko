@@ -1,0 +1,29 @@
+{
+	"scope": "source.marko",
+	"completions": [
+		{ "trigger": "for", "contents": "<for each=\"${1:item} in ${2:items}\">$3</for>"},
+		{ "trigger": "for=", "contents": "for\"${1:item} in ${2:items}\"" },
+		{ "trigger": "attrs=", "contents": "attrs=\"${1:expr}\"" },
+		{ "trigger": "if", "contents": "<if test=\"${1:condition}\">$2</if>" },
+		{ "trigger": "if=", "contents": "if=\"${1:condition}\">$2</if>" },
+		{ "trigger": "else-if", "contents": "<else-if test=\"${1:condition}\">$2</else-if>" },
+		{ "trigger": "else-if=", "contents": "else-if=\"${1:condition}\"" },
+		{ "trigger": "else", "contents": "<else>$1</else>" },
+		{ "trigger": "var", "contents": "<var name=\"${1:name}\" value=\"$2\"/>" },
+		{ "trigger": "assign", "contents": "<assign var=\"${1:var}\" value=\"$2\"/>" },
+		{ "trigger": "require", "contents": "<require module=\"${1:module}\" var=\"$2\"/>" },
+		{ "trigger": "op", "contents": "<optimizer-page package-path=\"${1:./optimizer.json}\"/>" },
+		{ "trigger": "oh", "contents": "<optimizer-head />" },
+		{ "trigger": "ob", "contents": "<optimizer-body />" },
+		{ "trigger": "use", "contents": "<layout-use template=\"${1:./path/to/template.marko}\">\n    <layout-put into=\"${2:target}\">\n        ${3:content}\n    </layout-put>\n</layout-use>" },
+		{ "trigger": "placeholder", "contents": "<layout-placeholder name=\"${1:name}\"/>" },
+		{ "trigger": "put", "contents": "<layout-put into \"${1:name}\" />" },
+		{ "trigger": "async", "contents": "<async-fragment data-provider=\"${1:data.myDataProvider}\" var=\"${2:varName}\">\n    ${3:}\n</async-fragment>" },
+		{ "trigger": "bind", "contents": "w-bind=\"${1:./widget}\"" },
+		{ "trigger": "include", "contents": "<include template=\"${1:./path/to/template.marko}\"/>" },
+		{ "trigger": "?", "contents": "{?${1:expression};${2:trueTemplate};${3:falseTemplate}}" },
+		{ "trigger": "def", "contents": "<def function=\"${1:name}(${2:params})\">\n    ${3:}\n</def>" },
+		{ "trigger": "invoke", "contents": "<invoke function=\"${1:name}\" ${2:arg1Name}=\"${3:arg1Value}\"/>" },
+		{ "trigger": "comment", "contents": "<html-comment>$1</html-comment>" }
+	]
+}
