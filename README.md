@@ -1,5 +1,5 @@
 #sublime-marko
-Language Definitions for [Marko-js](https://github.com/marko-js/marko) in Sublime Text
+Syntax highlighting and several auto-complete snippets for [Marko-js](https://github.com/marko-js/marko) in Sublime Text. Ported from the [Atom grammar](https://github.com/marko-js/atom-language-marko).
 
 ##Installation
 ####Package Control (recommended)
