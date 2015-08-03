@@ -6,7 +6,7 @@ Syntax highlighting and several auto-complete snippets for [Marko-js](https://gi
 Install [Package Control](https://packagecontrol.io/) and look for the package called `Marko`.
 
 ####Manual
-You'll need to copy `Marko.tmLanguage` and `Marko.sublime-completions` into your 'Sublime Text/Packages/User' folder (where you store your snippets). 
+You'll need to copy `Marko.tmLanguage` and `Marko.sublime-completions` into your `Sublime Text/Packages/User` folder (where you store your snippets). 
 
 ##Props
 - [Marko's Atom language definitions](https://github.com/marko-js/atom-language-marko)
