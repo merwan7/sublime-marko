@@ -2,7 +2,11 @@
 Language Definitions for [Marko-js](https://github.com/marko-js/marko) in Sublime Text
 
 ##Installation
-For now you need to drop `Marko.tmLanguage` and `Marko.sublime-completions` into your 'Sublime Text 3/Packages/User' folder (where you store your snippets). I am working on getting this into Package Control and will update this file when that is completed.
+####Package Control (recommended)
+Install [Package Control](https://packagecontrol.io/) and look for the package called `Marko`.
+
+####Manual
+You'll need to copy `Marko.tmLanguage` and `Marko.sublime-completions` into your 'Sublime Text 3/Packages/User' folder (where you store your snippets). 
 
 ##Props
 - [Marko's Atom language definitions](https://github.com/marko-js/atom-language-marko)
