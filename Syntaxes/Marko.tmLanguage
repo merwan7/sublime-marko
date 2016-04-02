@@ -1223,7 +1223,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>text.marko</string>
+	<string>text.html.marko</string>
 	<key>uuid</key>
 	<string>BC8F1816-9AB4-4571-97E8-787F6C925E07</string>
 </dict>
