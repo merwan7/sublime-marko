@@ -1,1 +1,7 @@
-marko.sublime-snippets
+<snippet>
+    <content><![CDATA[<pre> \$\{JSON.stringify(${1:object}, null, 2)} </pre> ]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cjson</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.marko</scope>
+</snippet>
